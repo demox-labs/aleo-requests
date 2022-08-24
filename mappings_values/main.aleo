@@ -5,9 +5,14 @@ mapping some_mapping:
     key account as address.public;
     value amount as address.public;
 
-mapping some_string_mapping:
+interface data_struct:
+    account as address;
+    message as string;
+    flag as boolean;
+
+mapping struct_mapping:
     key account as address.public;
-    value message as string.public;
+    value data as data_struct;
 
 function set_value:
     input r0 as address.public;
