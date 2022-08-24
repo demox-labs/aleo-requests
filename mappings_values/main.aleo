@@ -1,6 +1,9 @@
 // The 'mappings_values.aleo' program.
 program mappings_values.aleo;
 
+global owner as address.public;
+global verison_number as u32.public;
+
 mapping some_mapping:
     key account as address.public;
     value amount as address.public;
