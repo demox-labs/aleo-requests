@@ -1,0 +1,10 @@
+{
+    "program": "events.aleo",
+    "version": "0.0.0",
+    "description": "",
+    "development": {
+        "private_key": "APrivateKey1zkpFxnt1kJsJRXmoJTkdRbFXja4YG61CkpPeQLQcjsqpncm",
+        "address": "aleo1hvml0vmslarmkwtd8eewd2t2nky8qzy35ev0d4c8926trpr6pcrsmnztmq"
+    },
+    "license": "MIT"
+}
