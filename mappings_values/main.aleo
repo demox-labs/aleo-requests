@@ -33,7 +33,7 @@ function triple:
 
     finalize r0 r1;
 
-finalize tripe:
+finalize triple:
     input r0 as address.public;
     input r1 as u32.public;
 
