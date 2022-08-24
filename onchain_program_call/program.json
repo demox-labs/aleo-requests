@@ -1,0 +1,10 @@
+{
+    "program": "onchain_program_call.aleo",
+    "version": "0.0.0",
+    "description": "",
+    "development": {
+        "private_key": "APrivateKey1zkpBRy19qtEEYSTJzJGvCRWBXqrzayyaLFAxvzHL9f2fHa7",
+        "address": "aleo1vyp4equuxh0q8hgk4d5qmvl7kflrdn6d0n643g6cmn6dakpyjcfq772t8h"
+    },
+    "license": "MIT"
+}
