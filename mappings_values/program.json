@@ -1,0 +1,10 @@
+{
+    "program": "mappings_values.aleo",
+    "version": "0.0.0",
+    "description": "",
+    "development": {
+        "private_key": "APrivateKey1zkpHNWGQrxMx4Ub75DsjHD2qtfyHmSQSjcPsuhBg5XbYpKd",
+        "address": "aleo1dleucfttqfsuxav9evz9v9uyyrfvf6tdjk45ej3tcjvksr0nysxqprh5vn"
+    },
+    "license": "MIT"
+}
