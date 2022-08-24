@@ -2,7 +2,7 @@
 program mappings_values.aleo;
 
 global owner as address.public;
-global verison_number as u32.public;
+global version_number as u32.public;
 
 mapping some_mapping:
     key account as address.public;
