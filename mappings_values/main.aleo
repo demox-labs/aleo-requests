@@ -5,8 +5,31 @@ mapping some_mapping:
     key account as address.public;
     value amount as address.public;
 
-function add_to:
+mapping some_string_mapping:
+    key account as address.public;
+    value message as string.public;
+
+function set_value:
     input r0 as address.public;
     input r1 as u32.public;
 
-finalize add_to:
+    finalize r0 r1;
+
+finalize set_value:
+    input r0 as address.public;
+    input r1 as u32.public;
+
+    set_value some_mapping[r0] r1;
+
+function triple:
+    input r0 as address.public;
+
+    mul some_mapping[r0] 3u32 into r1;
+
+    finalize r0 r1;
+
+finalize tripe:
+    input r0 as address.public;
+    input r1 as u32.public;
+
+    set_value some_mapping[r0] r1;
