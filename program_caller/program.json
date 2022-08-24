@@ -1,0 +1,10 @@
+{
+    "program": "program_caller.aleo",
+    "version": "0.0.0",
+    "description": "",
+    "development": {
+        "private_key": "APrivateKey1zkp6Gmj4g9zxu7xbnHrp9rrN6FHWKp8mLyu52GNTyASdaoZ",
+        "address": "aleo1zg2gsq4ze5xv08tt2e4vfzd824rswwrxdx6tg7t0yn2k7mukay9sc79lz4"
+    },
+    "license": "MIT"
+}
